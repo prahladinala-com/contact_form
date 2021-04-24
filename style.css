@@ -1,0 +1,37 @@
+label, input {
+	display: block;
+}
+input {
+	width: 90%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+textarea{
+	width: 90%;
+	height: 150px;
+}
+fieldset {
+	margin-bottom: 30px;
+	background-color: #DDD;
+}
+input:required{
+	border-right: 10px solid grey;
+}
+input:optional{
+	border-right: 10px solid silver;
+}
+input:focus:invalid{
+	border-left: 10px solid red;
+}
+input:focus:valid{
+	border-left: 10px solid green;
+}
+input[type=submit]{
+	font-size: large;
+	width: 100%;
+	padding: 15px;
+	background-color: #DDD;
+	margin-top: 25px;
+	border-radius: 10px;
+}
